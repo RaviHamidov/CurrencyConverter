@@ -9,10 +9,57 @@
     <meta name="description" content="Sene shir lazimdi ?">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="HTML, CSS">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="./src/style/style.css">
+
+    <!-- WebSite's Library CSS | BootStrap 5.3.2 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- WebSite's Library JS | BootStrap 5.3.2 -->
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
 </head>
 
-<body style="display: flex;justify-content: center;align-items: center;height: 100vh;margin: 0;">
-    <img src="./src/img/shir.png" alt="Sene Shir lazimdi ?">
+<body style="background-color: #000;">
+    <!-- ===========================
+            Nav - Start
+  ============================ -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" style="height: 10vh;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html">
+                <img src="./src/img/logo.svg" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./indexExtension.html">Şir
+                            həftəsi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./indexExtension.html">Sərmayələr</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./indexExtension.html">Kredit limiti</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--########### End -> Nav ###########-->
+    <main>
+        <div style="display: flex;justify-content: center;">
+            <img style="border-radius: 20%;border:2px solid #000; margin: 3% 0;" src="./src/img/shir.png"
+                alt="Sene Shir lazimdi ?">
+        </div>
+        <h1 style="display: flex;justify-content: center; color: #fff;">Brat sənə Şir lazımdı ?</h1>
+    </main>
 </body>
 
 </html>
